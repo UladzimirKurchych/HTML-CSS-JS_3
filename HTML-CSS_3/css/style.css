@@ -28,6 +28,14 @@ body{
 	color: #000000;
 }
 
+/*container*/
+
+.container{
+	max-width: 1230px;
+	padding: 0 15px;
+	margin: 0 auto;
+}
+
 /*header*/
 
 .header{
@@ -153,4 +161,48 @@ height: 18px;
 background-image: url(/HTML-CSS_3/images/header/search-item.svg);
 top: 28px;
 left: 9px;
+}
+
+/*popular*/
+
+.popular{
+	text-align: center;
+}
+
+.popular__title{
+	background-color: #000000;
+	font-family: 'PT Serif', serif;
+	font-weight: 400;
+	font-size: 48px;
+	line-height: 64px;
+	color: #ffffff;
+padding: 18px 15px;
+}
+
+.popular__inner{
+	display: flex;
+	justify-content: space-between;
+	padding: 100px 0;
+}
+
+.popular__img{
+	width: 280px;
+	height: 280px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+.popular__item-title{
+	padding: 30px 10px;
+	font-size: 24px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #888;
+}
+
+.popular__link{
+	font-size: 18px;
+	color: #fff;
+	background-color: #C4C4C4;
+	padding: 13px 48px;
 }
