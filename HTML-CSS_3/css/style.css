@@ -275,3 +275,32 @@ background-repeat: no-repeat;
 
 /*best*/
 
+.best{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: right;
+	min-height: 100vh;
+	padding-top: 68px;
+}
+
+.best__title{
+max-width: 457px;
+margin-left: auto;
+font-family: 'PT Serif', serif;
+font-size: 48px;
+line-height: 48px;
+font-weight: 400;
+color: #fff;
+text-align: right;
+padding-bottom: 15px;
+}
+
+.best__link{
+	display: inline-block;
+background-color: #000000;
+color: #fff;
+padding: 16px 18px;
+font-size: 18px;
+line-height: 18px;
+}
