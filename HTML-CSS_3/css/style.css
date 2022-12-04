@@ -255,3 +255,23 @@ background-repeat: no-repeat;
 	line-height: 24px;
 	padding-bottom: 42px;
 }
+.reason__link{
+	font-size: 18px;
+	line-height: 24px;
+	color: #888;
+	padding: 4px 0 4px 36px;
+	position: relative;
+}
+.reason__link::before{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 30px;
+	height: 30px;
+	background-image: url(/HTML-CSS_3/images/reason/arrowlink.reason.svg);
+}
+
+
+/*best*/
+
