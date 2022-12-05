@@ -304,3 +304,16 @@ padding: 16px 18px;
 font-size: 18px;
 line-height: 18px;
 }
+
+/*about*/
+
+
+.about{
+	background-color: #000000;
+	color: #fff;
+}
+
+.about__inner{
+	display: flex;
+	padding-top: 100px;
+}
