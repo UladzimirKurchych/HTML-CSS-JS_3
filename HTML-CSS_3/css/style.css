@@ -406,3 +406,68 @@ line-height: 18px;
 
 
 /*footer*/
+
+.footer{
+
+}
+
+.footer__top{
+	background-color: #000000;
+	padding: 100px 0;
+	color: #fff;
+}
+
+.footer__top-inner{
+display: flex;
+align-items: center;
+}
+
+.footer__menu-list{
+	width: 250px;
+	margin-right: 50px;
+}
+
+.footer__menu-link{
+	line-height: 36px;
+	color: #fff;
+}
+.footer__form{
+	display: flex;
+	align-items: center;
+}
+.footer__form-label{
+	font-size: 18px;
+	line-height: 18px;
+	color: #888;
+	margin-right: 10px;
+	display: inline-block;
+}
+.footer__form-input{
+	display: block;
+	width: 511px;
+	height: 69px;
+	height: 70px;
+	background-color: #fff;
+	border: none;
+	padding: 0 15px;
+	font-size: 18px;
+	line-height: 24px;
+	color: #888;
+}
+.footer__form-input::placeholder{
+	padding: 0 15px;
+	font-size: 18px;
+	line-height: 24px;
+	color: #888;
+}
+.footer__form-btn{
+	color: #fff;
+	border: none;
+	background-color: #C4C4C4;
+	padding: 27px 35px;
+}
+
+.footer__logo{
+	padding: 3px 0 23px;
+	text-align: center;
+}
