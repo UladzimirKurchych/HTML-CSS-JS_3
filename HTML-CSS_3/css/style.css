@@ -484,6 +484,22 @@ align-items: center;
 	width: 400px;
 	height: 400px;
 	}
+	.best{
+		min-height: 80vh;
+	}
+}
+
+@media (max-width: 1140px){
+.about__inner{
+	flex-wrap: wrap;
+	justify-content: start;
+}
+.blog{
+	margin-left: 150px;
+}
+.reviews{
+	width: 100%;
+}
 }
 
 @media (max-width: 992px){
@@ -518,6 +534,28 @@ align-items: center;
 	height: 50px;
 	background-size: cover;
 }
+.best{
+	min-height: 600px;
+}
+}
+
+@media (max-width: 900px){        /*  max-width: 900px  */
+.about__inner{
+	display: block;
+}
+
+.our-managers{
+	margin: 0 auto;
+}
+.blog{
+	margin: 50px auto;
+	max-width: 420px;
+	width: auto;
+}
+.reviews{
+	margin: 0 auto;
+	max-width: 420px;
+}
 
 }
 
@@ -536,6 +574,9 @@ align-items: center;
 }
 .popular__item{
 	width: 100%;
+	}
+	.best{
+		min-height: 400px;
 	}
 }
 
@@ -567,6 +608,10 @@ align-items: center;
 	line-height: 42px;
 }
 .reason__title{
+	font-size: 28px;
+	line-height: 32px;
+}
+.best__title{
 	font-size: 28px;
 	line-height: 32px;
 }
